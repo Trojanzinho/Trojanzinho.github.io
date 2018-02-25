@@ -1,0 +1,247 @@
+{
+  "OrderConfig": {
+    "MainComboHotkey": {
+      "Hotkey": {
+        "Key": "G",
+        "MouseButton": "None"
+      }
+    },
+    "TempestComboHotkey": {
+      "Hotkey": {
+        "Key": "Z",
+        "MouseButton": "None"
+      }
+    },
+    "SpamHotkey": {
+      "Hotkey": {
+        "Key": "H",
+        "MouseButton": "None"
+      }
+    },
+    "AutoPushHotkey": {
+      "Hotkey": {
+        "Key": "V",
+        "MouseButton": "None"
+      }
+    },
+    "OrderStatusPanel": {
+      "Panel": true,
+      "Position": {
+        "MaxValue": {
+          "X": 1910.0,
+          "Y": 1070.0,
+          "IsNormalized": false,
+          "IsZero": false
+        },
+        "MinValue": {
+          "X": 0.0,
+          "Y": 0.0,
+          "IsNormalized": false,
+          "IsZero": true
+        },
+        "Value": {
+          "X": 878.0,
+          "Y": 209.0,
+          "IsNormalized": false,
+          "IsZero": false
+        }
+      },
+      "TextSize": {
+        "MaxValue": 100.0,
+        "MinValue": 1.0,
+        "Value": 27.0
+      },
+      "Type": {
+        "SelectedIndex": 0,
+        "Values": [
+          "type 1",
+          "type 2"
+        ]
+      }
+    }
+  },
+  "MenuForMainHero": {
+    "AbilitySelection": {
+      "PictureStates": {
+        "arc_warden_flux": true,
+        "arc_warden_magnetic_field": true,
+        "arc_warden_spark_wraith": true,
+        "arc_warden_tempest_double": true
+      }
+    },
+    "CustomComboPriorityHero": true,
+    "ItemPriorityChanger": {
+      "Priorities": {
+        "item_orchid": 1,
+        "item_mjollnir": 3,
+        "item_bloodthorn": 4
+      },
+      "Selectable": true,
+      "PictureStates": {
+        "item_orchid": true,
+        "item_bloodthorn": true,
+        "item_mjollnir": true
+      }
+    }
+  },
+  "MenuForTempestHero": {
+    "AbilitySelection": {
+      "PictureStates": {
+        "arc_warden_flux": true,
+        "arc_warden_magnetic_field": true,
+        "arc_warden_spark_wraith": true
+      }
+    },
+    "CustomComboPriorityHero": true,
+    "ItemPriorityChanger": {
+      "Priorities": {
+        "item_orchid": 1,
+        "item_mjollnir": 3,
+        "item_bloodthorn": 4
+      },
+      "Selectable": true,
+      "PictureStates": {
+        "item_orchid": true,
+        "item_bloodthorn": true,
+        "item_mjollnir": true
+      }
+    }
+  },
+  "MenuForBlink": {
+    "Slider": {
+      "MaxValue": 2000.0,
+      "MinValue": 100.0,
+      "Value": 400.0
+    },
+    "UseRange": true
+  },
+  "SmartSpark": {
+    "IsEnable": true,
+    "Slider": {
+      "MaxValue": 25.0,
+      "MinValue": 1.0,
+      "Value": 10.0
+    }
+  },
+  "AutoPushingSettings": {
+    "IsEnable": false,
+    "Slider": {
+      "MaxValue": 2000,
+      "MinValue": 0,
+      "Value": 1000
+    },
+    "UseTravels": true,
+    "CheckForCreeps": true,
+    "PushLaneOnMouse": false,
+    "SummonTempest": true,
+    "AutoPushingPanel": {
+      "Panel": true,
+      "Position": {
+        "MaxValue": {
+          "X": 1910.0,
+          "Y": 1070.0,
+          "IsNormalized": false,
+          "IsZero": false
+        },
+        "MinValue": {
+          "X": 0.0,
+          "Y": 0.0,
+          "IsNormalized": false,
+          "IsZero": true
+        },
+        "Value": {
+          "X": 0.0,
+          "Y": 186.0,
+          "IsNormalized": false,
+          "IsZero": false
+        }
+      },
+      "TextSize": {
+        "MaxValue": 100.0,
+        "MinValue": 1.0,
+        "Value": 50.0
+      }
+    },
+    "OnlyOneTpPerOrder": true,
+    "AttackOnlyTowers": false,
+    "AutoEscape": false,
+    "AutoEscapeHealthPercant": {
+      "MaxValue": 100.0,
+      "MinValue": 1.0,
+      "Value": 25.0
+    },
+    "UseMagneticField": true,
+    "UseOrbWalkerDistance": false,
+    "MinDistance": {
+      "MaxValue": 700.0,
+      "MinValue": 0.0,
+      "Value": 0.0
+    }
+  },
+  "ItemCooldownHelper": {
+    "IsEnable": true,
+    "Position": {
+      "MaxValue": {
+        "X": 1910.0,
+        "Y": 1070.0,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "MinValue": {
+        "X": 0.0,
+        "Y": 0.0,
+        "IsNormalized": false,
+        "IsZero": true
+      },
+      "Value": {
+        "X": 200.0,
+        "Y": 100.0,
+        "IsNormalized": false,
+        "IsZero": false
+      }
+    },
+    "SizeX": {
+      "MaxValue": 400.0,
+      "MinValue": 5.0,
+      "Value": 50.0
+    },
+    "SizeY": {
+      "MaxValue": 400.0,
+      "MinValue": 5.0,
+      "Value": 50.0
+    },
+    "TextSize": {
+      "MaxValue": 100.0,
+      "MinValue": 1.0,
+      "Value": 50.0
+    },
+    "Movable": true
+  },
+  "AutoMidasConfig": {
+    "IsEnable": true
+  },
+  "MagneticFieldConfig": {
+    "UseInFont": false,
+    "MainComboHotkey": {
+      "Hotkey": {
+        "Key": "C",
+        "MouseButton": "None"
+      }
+    },
+    "RangeSlider": {
+      "MaxValue": 1000.0,
+      "MinValue": 0.0,
+      "Value": 300.0
+    }
+  },
+  "DebugConfig": {
+    "IsEnable": false
+  },
+  "Blocker": true,
+  "MinDistance": {
+    "MaxValue": 700.0,
+    "MinValue": 0.0,
+    "Value": 0.0
+  },
+  "AutoLinken": false
+}
